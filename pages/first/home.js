@@ -11,8 +11,9 @@ export default class ButtonComponent extends Component {
     state = {};
 
     onButtonPress = () => {
-        ajax.get('/v1/parameter').then(() => {
-            Alert.alert(`Button has been pressed!`);
+        ajax.get('/v1/parameter').then(res => {
+            console.warn(res);
+            Alert.alert(`Button has been pressed!${res.businessDay}`);
         });
     };
 

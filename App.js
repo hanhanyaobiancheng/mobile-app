@@ -12,6 +12,7 @@ import {
 import Login from './pages/login/Login';
 import * as promiseAjax from './commons/ajax/promise-ajax';
 import baseUrl from './commons/local-ajax-base-url';
+import AllRoutes from './allRoutes';
 
 promiseAjax.init({
     setOptions: (instance) => {
@@ -59,9 +60,7 @@ type Props = {};
 export default class App extends Component<Props> {
   render() {
     return (
-      <View style={{flex: 1}}>
-          <Login/>
-      </View>
+        <AllRoutes/>
     );
   }
 }

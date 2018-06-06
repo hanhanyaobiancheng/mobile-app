@@ -28,7 +28,8 @@ export default class Login extends Component {
     clickLoginBtn = () => {
         const {username, password} = this.state;
         if (username === 'admin' && password === '111111') {
-            Alert.alert('登录成功！');
+            return this.props.navigation.navigate('home');
+            // Alert.alert('登录成功！');
         } else {
             this.setState({
                 showErrorMessage: true,
