@@ -24,7 +24,6 @@ const HomeStack = createStackNavigator(
         headerMode: 'none',
         navigationOptions: {
             gesturesEnabled: false,
-            headerTitle: '首页',
         },
     }
 );

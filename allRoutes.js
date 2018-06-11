@@ -2,6 +2,7 @@ import { createStackNavigator } from 'react-navigation';
 import Login from './pages/login/Login';
 import Home from './pages/first/home';
 import DetailPage from './pages/tab/DetailPage';
+import Drawer from './pages/drawer/TheDrawerRoutes';
 
 export default createStackNavigator(
     {
@@ -17,6 +18,9 @@ export default createStackNavigator(
         },
         detail: {
             screen: DetailPage,
+        },
+        drawer: {
+            screen: Drawer,
         },
     },
     {
