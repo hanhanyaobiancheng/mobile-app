@@ -1,0 +1,1 @@
+export MusicService from './music/index';

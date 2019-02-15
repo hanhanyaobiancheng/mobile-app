@@ -37,7 +37,7 @@ const TwoStack = createStackNavigator(
 
 export default createBottomTabNavigator(
   {
-    Home: HomeStack,
+    '第一个页面': HomeStack,
     Two: TwoStack,
   },
   {
