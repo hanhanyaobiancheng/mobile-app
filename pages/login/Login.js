@@ -30,6 +30,7 @@ export default class Login extends Component {
 
     clickLoginBtn = () => {
         const {username, password} = this.state;
+        const params = {};
         if (username === 'admin' && password === '111111') {
             return this.props.navigation.navigate('home');
             // Alert.alert('登录成功！');

@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import {firstLowerCase} from '../index';
-import * as allServices from '../service/index';
+import * as allServices from './index';
 /**
  * service高级组件
  * 将$services属性注入到目标组件props中，目标组件可以通过this.props.$services(...)方式进行使用;
