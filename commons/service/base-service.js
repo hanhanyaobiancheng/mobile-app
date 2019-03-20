@@ -8,7 +8,7 @@ export default class BaseService {
     }
 
     /**
-     * 释放资源，一般组件卸载的时候回调用次方法，详见 service-hoc.jsx 高阶组件
+     * 释放资源，一般组件卸载的时候回调用次方法，详见 service-hoc.js 高阶组件
      */
     release() {
         this.resource.forEach(item => {

@@ -1,4 +1,4 @@
-import * as ajax from 'zk-tookit/utils/promise-ajax';
+import * as ajax from '../../ajax/promise-ajax';
 import BaseService from '../base-service';
 
 export default class MusicService extends BaseService {

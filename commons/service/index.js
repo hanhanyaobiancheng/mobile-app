@@ -1,1 +1,4 @@
-export MusicService from './music/index';
+import MusicService from './music/index';
+export {
+    MusicService,
+};

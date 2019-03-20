@@ -4,7 +4,7 @@ import * as ajax from '../../commons/ajax/promise-ajax';
 import service from '../../commons/service/service-hoc';
 
 @service()
-class DetailPage extends Component {
+export default class DetailPage extends Component {
 	static navigationOptions = {
         headerTitle: "假装是详情页标题",
       };
